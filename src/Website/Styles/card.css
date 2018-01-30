@@ -1,0 +1,242 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(50,50,50,0.2);
+    transition: 0.3s;
+    width: 25%;
+    background-color: rgb(40, 40, 40);
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.link-center{
+    padding-top: 10%;
+    text-align: center;
+}
+
+.stack {
+    text-align: center;
+}
+
+#more{
+    background-color: rgb(30,30,30);
+    color: rgb(101, 195, 235);
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom:3px;
+    opacity: 1; 
+    border: 1px solid rgb(101, 195, 235); 
+    margin-top: 10%;
+    align-items: center;
+}
+
+#more:hover{
+    color:rgb(30, 30, 30);
+    background-color: rgb(81, 206, 255);
+    opacity: 1;
+    border: 1px solid rgb(101, 195, 235);
+    
+}
+
+/* Add some padding inside the card container */
+.card-container {
+    max-height: 50%
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: rgb(50,50,50);
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 2%;
+    border: 1px solid rgb(81, 206, 255);
+    width: 60%; /* Could be more or less, depending on screen size */
+    color: white;
+    text-align: left;
+}
+
+.img-wrapper {
+    align-items: center;
+    display: flex;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0.5%; 
+    padding-top: 0.5%;
+    width: 100%;
+}
+
+
+.modal-content-text{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+.modal-content-list{
+    padding-left: 6%;
+    padding-right: 6%;
+    align-items: center;
+}
+    
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(81, 206, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+span{
+    z-index: 2;
+}
+.project{
+    display: flex;
+    width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+@media only screen and (max-width: 767px) {
+    .card {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(40, 40, 40, 0.2);
+        transition: 0.3s;
+        width: 100%;
+        display: block;
+    }
+    
+    /* On mouse-over, add a deeper shadow */
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    
+    .link-center{
+        padding-top: 10%;
+        text-align: center;
+    }
+    
+    .stack {
+        text-align: center;
+    }
+    
+    #more{
+        background-color: rgb(30,30,30);
+        color: rgb(101, 195, 235);
+        border-radius: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 3px;
+        padding-bottom:3px;
+        opacity: 1; 
+        border: 1px solid rgb(101, 195, 235); 
+        margin-top: 10%;
+        align-items: center;
+    }
+    
+    #more:hover{
+        color:rgb(30, 30, 30);
+        background-color: rgb(81, 206, 255);
+        opacity: 1;
+        border: 1px solid rgb(101, 195, 235);
+        
+    }
+    
+    /* Add some padding inside the card container */
+    .card-container {
+        width: 80%;
+        margin: auto;
+    }
+    
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    
+    /* Modal Content/Box */
+    .modal-content {
+        background-color: rgb(50,50,50);
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 2%;
+        border: 1px solid rgb(81, 206, 255);
+        width: 80%; /* Could be more or less, depending on screen size */
+        color: white;
+        text-align: left;
+    }
+    
+    .img-wrapper {
+        align-items: center;
+        display: block;
+        padding-top: 2%;
+        width: 100%;
+    }
+    
+    
+    .modal-content-text{
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: left;
+    }
+
+    .modal-content-list{
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: left;
+    }
+        
+    /* The Close Button */
+    .close {
+        color: white;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: rgb(81, 206, 255);
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    span{
+        z-index: 2;
+    }
+    .project{
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

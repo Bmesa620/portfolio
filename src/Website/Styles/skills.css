@@ -1,0 +1,71 @@
+.skills-container {
+  width: 80%;
+  background-color: rgb(30, 30, 30);
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 2.5%;
+}
+
+.skills-text{
+    padding-bottom: 11%;   
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 8%;
+}
+
+.ninty {
+    width: 90%; 
+    background-color: rgb(101, 195, 235);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.eighty {
+    width: 80%; 
+    background-color: rgb(101, 195, 235);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.sixty-five {
+    width: 65%; 
+    background-color: rgb(101, 195, 235);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.sixty {width: 60%; 
+    background-color: rgb(101, 195, 235);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    .skills-container {
+        width: 80%;
+        background-color: rgb(30, 30, 30);
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-bottom: 2.5%;
+      }
+      
+      .skills-text{
+          padding-bottom: 5%;   
+      }
+      
+      .skills {
+        text-align: right;
+        padding-right: 20px;
+        line-height: 40px;
+        color: white;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-bottom: 8%;
+      }
+      
+
+  }

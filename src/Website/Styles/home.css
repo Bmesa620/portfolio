@@ -1,0 +1,82 @@
+.tablink {
+    background-color: rgb(81,154,186);
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 33.33%;
+    display: table-cell; 
+}
+
+.tablink:hover {
+    background-color: rgb(81, 206, 255);
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+#Who {
+    border: 3px solid rgb(81,154,186);
+}
+#What {
+    border: 3px solid rgb(81,154,186);
+}
+#Where {
+    border: 3px solid rgb(81,154,186);
+}
+
+.intro{
+    width: 90%;
+    padding: auto;
+    margin: auto;
+}
+
+#more{
+    background-color: rgb(30,30,30);
+    color: rgb(101, 195, 235);
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom:3px;
+    opacity: 1; 
+    border: 1px solid rgb(101, 195, 235); 
+    margin-top: 10%;
+}
+#more:hover{
+    color:rgb(30, 30, 30);
+    background-color: rgb(81, 206, 255);
+    opacity: 1;
+    border: 1px solid rgb(101, 195, 235);
+    
+}
+
+#blue{
+    color: black;
+    background-color: rgb(252, 252, 252);
+}
+
+#gray{
+    color: white;
+    background-color: rgb(50, 50, 50);
+}
+
+.tablink-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+
+@media only screen and (max-width: 767px) {
+    .tablink { 
+        display: block;
+        width: 100%;
+    }
+}
